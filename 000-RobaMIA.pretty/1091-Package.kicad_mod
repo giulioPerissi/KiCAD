@@ -1,0 +1,139 @@
+(footprint "1091-Package"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a957626a-048e-4414-90b3-ae5bdc2bff43")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1091-Package"
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d453dec0-e2c7-427c-9d01-7aad70f75371")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.it/datasheet/2/249/MA4P_MELF_HIPAX_Series-1109210.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b03e9e23-64dc-4baf-8692-906666202481")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d33d485b-9f4a-4d99-bf99-227dd1f69a87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.397 -2.032)
+		(end 1.397 -2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "da1dc533-ffb7-4f5a-ad20-547ce05a3f2e")
+	)
+	(fp_line
+		(start 1.397 2.032)
+		(end -1.397 2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "359fc706-465f-4b46-9ec8-d0a225a215ab")
+	)
+	(fp_circle
+		(center -1.016 -0.381)
+		(end -0.816 -0.381)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0b267071-35c3-42dc-b91e-805ae0911574")
+	)
+	(fp_rect
+		(start -2.794 -2.159)
+		(end 2.794 2.159)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9d10bedf-c3fc-4e42-b6cf-ed8dcc2d9b6a")
+	)
+	(fp_rect
+		(start -1.905 -1.905)
+		(end 1.905 1.905)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "45d4af02-d070-4f80-8226-bb40bf9717ec")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d70d32dd-a18a-4f21-8d3f-db1f7a85f83e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.905 0)
+		(size 1.27 3.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "23ed3b11-591c-4ea2-a3fa-5b268f36749f")
+	)
+	(pad "2" smd roundrect
+		(at 1.905 0)
+		(size 1.27 3.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "bd1b0ec9-b6d7-404d-81b9-30c48cc94699")
+	)
+	(embedded_fonts no)
+)
